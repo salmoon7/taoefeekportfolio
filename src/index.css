@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Define custom colors and fonts using CSS variables */
+:root {
+  --color-primary: #0f172a;
+  --color-accent: #14b8a6;
+  --color-accent2: #6366f1;
+  --color-lightgray: #f9fafb;
+  --color-darkgray: #1f2937;
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+/* Extend Tailwind utilities using @layer and CSS variables */
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-lightgray);
+    color: var(--color-darkgray);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary) !important;
+  }
+  .bg-accent {
+    background-color: var(--color-accent) !important;
+  }
+  .bg-accent2 {
+    background-color: var(--color-accent2) !important;
+  }
+  .bg-lightgray {
+    background-color: var(--color-lightgray) !important;
+  }
+  .bg-darkgray {
+    background-color: var(--color-darkgray) !important;
+  }
+  .text-primary {
+    color: var(--color-primary) !important;
+  }
+  .text-accent {
+    color: var(--color-accent) !important;
+  }
+  .text-accent2 {
+    color: var(--color-accent2) !important;
+  }
+  .text-lightgray {
+    color: var(--color-lightgray) !important;
+  }
+  .text-darkgray {
+    color: var(--color-darkgray) !important;
+  }
+  .font-heading {
+    font-family: var(--font-heading) !important;
+  }
+  .font-body {
+    font-family: var(--font-body) !important;
+  }
+}
