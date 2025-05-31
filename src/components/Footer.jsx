@@ -29,29 +29,32 @@ const Footer = () => {
         </div>
 
         {/* Email Me */}
+        {/* Email Me - Dark Themed Style */}
         <div>
           <h3 className="text-xl font-semibold mb-4 border-l-4 border-accent pl-3">
             Say Hello
           </h3>
-          <p className="text-sm text-gray-600 mb-3">
-            Want to work together? Send me a message directly.
+          <p className="text-sm text-gray-400 mb-3">
+            Want to work together or say something nice? Just drop a message.
           </p>
-          <div className="flex gap-2 items-center">
+          <div className="flex flex-col sm:flex-row items-center gap-4">
             <input
               type="text"
+              placeholder="Your message here..."
               value={emailMsg}
               onChange={(e) => setEmailMsg(e.target.value)}
-              placeholder="Type a message..."
-              className="flex-1 px-4 py-2 rounded-md border border-accent/50 focus:ring-2 focus:ring-accent outline-none shadow-sm text-sm placeholder:text-gray-400"
+              className="w-full sm:flex-1 px-4 py-3 rounded-md border border-gray-700 bg-gray-800 text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-accent transition"
             />
             <button
               onClick={handleGmailClick}
               disabled={!emailMsg.trim()}
-              className={`px-4 py-2 rounded-md bg-accent text-white text-sm font-medium hover:bg-accent/90 transition ${
+              className={`flex items-center gap-2 px-5 py-3 rounded-md bg-accent text-white font-semibold hover:bg-accent/90 transition ${
                 !emailMsg.trim() ? "opacity-50 cursor-not-allowed" : ""
               }`}
+              title="Send Email"
             >
-              <Mail className="w-4 h-4" />
+              <Mail className="w-5 h-5" />
+              Mail Me
             </button>
           </div>
         </div>
@@ -98,8 +101,8 @@ const Footer = () => {
       </div>
 
       <div className="text-center mt-12 text-sm text-gray-400 border-t pt-6">
-        &copy; {new Date().getFullYear()} Taofeek Abdussalam. Built with 💙 and
-        clean code.
+        &copy; {new Date().getFullYear()} Taofeek Abdussalam. Crafting solutions
+        with precision and purpose.
       </div>
     </footer>
   );
