@@ -35,7 +35,10 @@ const Hero = () => {
           variants={itemVariantsUp}
           className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900 font-heading mb-6"
         >
-          Building Web Experiences <br /> That Speak Creativity.
+          Crafting <span className="text-accent">Web</span> &{" "}
+          <span className="text-accent">Mobile</span> Experiences{" "}
+          <br className="hidden sm:block" /> That Blend Function with
+          Creativity.
         </motion.h1>
 
         <motion.p
@@ -50,19 +53,11 @@ const Hero = () => {
 
         <motion.div
           variants={itemVariantsUp}
-          className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center justify-center sm:justify-start"
         >
-          <a
-            href="/Taofeek_Abdul_Salam_Resume.pdf"
-            download
-            className="bg-accent text-white px-7 py-3 rounded-full font-semibold shadow-md hover:bg-accent2 transition-transform duration-300 hover:scale-105"
-          >
-            Download Resume
-          </a>
-
           <AnchorLink
             href="#projects"
-            className="border-2 border-accent text-accent px-7 py-3 rounded-full font-semibold hover:bg-accent hover:text-white transition-transform duration-300 hover:scale-105"
+            className="w-full sm:w-auto text-center border-2 border-accent text-accent px-6 py-3 rounded-full font-semibold text-base sm:text-lg hover:bg-accent hover:text-white transition duration-300 ease-in-out"
           >
             View Projects
           </AnchorLink>

@@ -30,6 +30,14 @@ const ModernNavbar = () => {
               {link}
             </a>
           ))}
+          <a
+            href="/Taofeek_Abdul_Salam_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#14b8a6] text-white px-5 py-2 rounded-full font-semibold shadow hover:bg-[#0d9488] transition duration-300"
+          >
+            My Resume
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -75,6 +83,14 @@ const ModernNavbar = () => {
                     {link}
                   </a>
                 ))}
+                <a
+                  href="/Taofeek_Abdul_Salam_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#14b8a6] text-white px-5 py-2 rounded-full font-semibold shadow hover:bg-[#0d9488] transition duration-300"
+                >
+                  My Resume
+                </a>
               </motion.div>
             </>
           )}

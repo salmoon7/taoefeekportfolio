@@ -68,7 +68,7 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <Github className="w-4 h-4 text-accent" />
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/salmoon7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition"
@@ -101,7 +101,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center mt-12 text-sm text-gray-400 border-t pt-6">
-        &copy; {new Date().getFullYear()} Taofeek Abdussalam. Crafting solutions
+        &copy; {new Date().getFullYear()} Taofeek Abdulsalam. Crafting solutions
         with precision and purpose.
       </div>
     </footer>
