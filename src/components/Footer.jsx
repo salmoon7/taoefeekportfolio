@@ -79,7 +79,7 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <Linkedin className="w-4 h-4 text-accent" />
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/taofeekadebayo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-accent transition"

@@ -107,8 +107,8 @@ const projects = [
     name: "CoffeeShop Mobile",
     description:
       "A coffee ordering mobile app developed in pure React Native. Managed global state with Context API and custom navigation flow.",
-    live: "https://coffeeshopapp.live",
-    github: "https://github.com/salmoon7/coffeeshop-native",
+    live: "https://github.com/salmoon7/NatureXMobileApp",
+    github: "https://github.com/salmoon7/NatureXMobileApp",
     tech: ["React Native, Context API"],
   },
   {
