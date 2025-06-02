@@ -37,8 +37,7 @@ const Hero = () => {
         >
           Crafting <span className="text-accent">Web</span> &{" "}
           <span className="text-accent">Mobile</span> Experiences{" "}
-          <br className="hidden sm:block" /> That Blend Function with
-          Creativity.
+          <br className="hidden sm:block" /> That Speak Creativity.
         </motion.h1>
 
         <motion.p
