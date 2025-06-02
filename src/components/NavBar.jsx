@@ -84,7 +84,7 @@ const ModernNavbar = () => {
                   </a>
                 ))}
                 <a
-                  href="/Taofeek_Abdul_Salam_Resume.pdf"
+                  href="/my-resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#14b8a6] text-white px-5 py-2 rounded-full font-semibold shadow hover:bg-[#0d9488] transition duration-300"
